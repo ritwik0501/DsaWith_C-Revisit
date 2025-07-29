@@ -11,6 +11,6 @@ int main(){
     if(s1==s1_reverse){
         cout<<"String is Palindrom";
     }else{
-        cout<<"String is not palindrom";
+        cout<<"String is not palindrom.";
     }
 }
