@@ -3,7 +3,7 @@
 using namespace std;
 vector<int> pairWithGivenDifferences(int arr[],int size,int target){
     int start=0,end=1;
-    vector<int>ans;
+    vector<int>ans(1,-1);
     while(end<size){
         int difference=arr[end]-arr[start];
         if(difference==target){
