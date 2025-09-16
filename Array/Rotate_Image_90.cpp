@@ -6,8 +6,9 @@ int main(){
     int arr2[4][4];
     for(int i=0;i<4;i++){
         for(int j=0;j<4;j++){
-            int temp=3-i;
-            arr2[j][temp]=arr1[i][j] ;
+            int temp=3-j;
+            // arr2[j][temp]=arr1[i][j] ; //clockwise
+            arr2[temp][i]=arr1[i][j]; //antiClockwise
         }
     }
     for(int i=0;i<4;i++){
